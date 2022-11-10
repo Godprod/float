@@ -1,0 +1,68 @@
+@import url(resret.css);
+
+.container {
+	width: 1200px;
+    margin: 0 auto;
+    background: rgb(165, 165, 165);
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.float1 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(253, 99, 99);
+    outline: 1px solid rgb(0, 0, 255);
+    float: left;
+}
+
+.floatleft {
+    float: left;
+}
+
+.float2 {
+    width: 800px;
+    height: 200px;
+    background-color: cadetblue;
+    outline: 1px solid rgb(0, 0, 255);
+}
+.float3 {
+width: 400px;
+height: 133px;
+background-color: rgb(255, 235, 205);
+outline: 1px solid rgb(0, 0, 255);
+}
+.floatright {
+    float: right;
+}
+.float4 {
+    width: 400px;
+    height: 400px;
+    background-color: chocolate;
+    outline: 1px solid rgb(0, 0, 255);
+    float: left;
+}
+
+.float5 {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(132, 0, 255);
+    outline: 1px solid rgb(0, 0, 255);
+}
+.float6 {
+    width: 400px;
+    height: 200px;
+    background-color: coral;
+    outline: 1px solid rgb(0, 0, 255);
+    float: left;
+}
+.float7 {
+width: 400px;
+height: 100px;
+background-color: lightgreen;
+outline: 1px solid rgb(0, 0, 255);
+}
